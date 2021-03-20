@@ -6,7 +6,7 @@ import FormCreator from './lib/formcreator';
 const App = ({ }) => {
     return (
         <>
-            <FormCreator data={ {x: "hola como estan"} }/>
+            <FormCreator dataGet={ {x: "hola como estan"} }/>
         </>
     );
 }
