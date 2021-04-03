@@ -1,12 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './app.css';
+import {FormCreator, dataTest} from './lib/formcreator';
+// import SimpleSelect from "./lib/tests/select";
 
-import FormCreator from './lib/formcreator';
+const App = () => {
+    // const datatest = {
+    //     modal: false,
+    //     title: 'Prueba',
+    //     x: "hola como estan"
+    // }
 
-const App = ({ }) => {
     return (
         <>
-            <FormCreator dataGet={ {x: "hola como estan"} }/>
+            {/*<SimpleSelect />*/}
+            <FormCreator dataGet={dataTest}/>
         </>
     );
 }
